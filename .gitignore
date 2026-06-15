@@ -1,0 +1,37 @@
+.tools/
+node_modules/
+node_modules
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependency/package manager caches
+.npm/
+.pnpm-store/
+.yarn/
+!.yarn/patches/
+!.yarn/plugins/
+!.yarn/releases/
+!.yarn/sdks/
+!.yarn/versions/
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
